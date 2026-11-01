@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0b0f19"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT CHIPSET"
+        android:textColor="#00ffcc"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:alignmentMode="alignMargins">
+
+        <!-- MediaTek Button -->
+        <Button
+            android:id="@+id/btnMediatek"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_columnWeight="1"
+            android:text="MEDIATEK"
+            android:backgroundTint="#1a233a"
+            android:textColor="#ffffff"
+            android:layout_margin="8dp"/>
+
+        <!-- MStar Button -->
+        <Button
+            android:id="@+id/btnMstar"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_columnWeight="1"
+            android:text="MSTAR"
+            android:backgroundTint="#1a233a"
+            android:textColor="#ffffff"
+            android:layout_margin="8dp"/>
+
+        <!-- Realtek Button -->
+        <Button
+            android:id="@+id/btnRealtek"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_columnWeight="1"
+            android:text="REALTEK"
+            android:backgroundTint="#1a233a"
+            android:textColor="#ffffff"
+            android:layout_margin="8dp"/>
+
+        <!-- Amlogic Button -->
+        <Button
+            android:id="@+id/btnAmlogic"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_columnWeight="1"
+            android:text="AMLOGIC"
+            android:backgroundTint="#1a233a"
+            android:textColor="#ffffff"
+            android:layout_margin="8dp"/>
+
+    </GridLayout>
+</LinearLayout>
